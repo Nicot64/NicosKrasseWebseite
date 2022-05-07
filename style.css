@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'headerFont';
+    src: url(HeaderFont.ttf);
+}
+@font-face {
+    font-family: 'textFont';
+    src: url(TextFont.ttf);
+}
+p{
+    font-family: "textFont", sans-serif;
+    color: rgb(200, 200, 200);
+    /*text-shadow: 0 0 10px rgb(255, 255, 255);*/
+    font-size: 20px;
+}
+h1{
+    font-family: "headerFont", sans-serif;
+    color: white;
+    text-shadow: 0 0 10px black;
+    font-size: 40px;
+}
+ul{
+    font-family: "textFont", sans-serif;
+    color: rgb(143, 143, 143);
+    font-size: 20px;
+}
+li{
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+header{
+    background-color: rgb(73, 74, 77);
+    text-align: center;
+    margin: auto;
+    padding: 0.5px 0px 15px 0px;
+}
+body{
+    background-color: rgb(40, 42, 44);
+}
+main{
+    margin: auto;
+    padding-bottom: 2px;
+    padding-top: 1px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+a{
+    color: rgb(200, 200, 200);
+}
+footer{
+    background-color: rgb(73, 74, 77);
+    text-align: center;
+    padding: 1px 0px 1px 0px;
+    margin-top: 20px;
+}
